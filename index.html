@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My first site</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <header style="background: red">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="My image" width="25" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Articles</a>
+            <!--<a href="javascript:void(0);">Guides</a>-->
+          </li>
+          <li>
+            <a href="#">Books</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Membership</a>
+          </li>
+          <li>
+            <a href="#">Jobs</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="#" method="POST">
+        <input type="search" name="search" placeholder="Type to search..." />
+        <button type="submit">
+          <img src="images/search.svg" alt="Search" />
+        </button>
+      </form>
+    </header>
+    <!-- This is main content: START -->
+    <main>
+      <section class="articles">
+        <h1>Don’t Miss These Latest Articles</h1>
+        <div class="wrapper">
+          <div class="article">
+            <div class="author">
+              <div class="img">
+                <img src="images/author_1.jpeg" alt="Author" />
+              </div>
+              <p><b>Victor Yocco</b> wrote</p>
+            </div>
+            <div class="title">
+              <a href="#" class="title-link">Designing For Attention</a>
+              <a href="#" class="comment">
+                <i class="comment-img"></i>
+                <span>Leave a comment</span>
+              </a>
+            </div>
+            <ul class="tags">
+              <li>
+                <a href="#">UI </a>
+                <sup>23</sup>
+              </li>
+              <li>
+                <a href="#">Design</a>
+                <sup>91</sup>
+              </li>
+              <li>
+                <a href="#">User Experience</a>
+                <sup>101</sup>
+              </li>
+            </ul>
+            <a href="#" class="link">&rarr;</a>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="newsletter-wrapper">
+          <h1>Email Newsletter</h1>
+          <p>
+            Every second Tuesday, we send an email newsletter with useful
+            techniques on front-end and UX. Subscribe and get
+            <strong>Smart Interface Design Checklists PDF</strong> in your
+            inbox.
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Your email" />
+            <button type="submit">Meow!</button>
+          </form>
+          <p class="note">
+            Front-end, UX and design. 1× a week.
+            <br />
+            You can always unsubscribe with just 1 click.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Main content: END -->
+    <footer>
+      <nav>
+        <p>Browse all smashing magazine topics</p>
+        <!-- ul>li*5>a[href="#"] -->
+        <ul>
+          <li>
+            <a href="#">HTML</a>
+          </li>
+          <li>
+            <a href="#">Desing</a>
+          </li>
+          <li>
+            <a href="#">Javascript</a>
+          </li>
+          <li>
+            <a href="#">CSS</a>
+          </li>
+          <li>
+            <a href="#">Frameworks</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="copyright">
+        &copy;&nbsp;Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.
+      </p>
+      <div class="contacts">
+        <p class="contacts-title">Our contacts:</p>
+        <ul class="list">
+          <li>
+            <p>Email:</p>
+            <a href="mailto:username@gmail.com">username@gmail.com</a>
+          </li>
+          <li>
+            <p>Phones:</p>
+            <a href="tel:+380501234567">+38 (050) 123-45-67</a>
+            <a href="skype:skypeuser?call">Skype</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
